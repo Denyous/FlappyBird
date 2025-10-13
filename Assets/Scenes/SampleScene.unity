@@ -381,8 +381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f85171b060017942baab210430199f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: -8.26
-  jumpMultip: 5.72
+  gravity: -7.63
+  jumpMultip: 4
 --- !u!95 &487779250
 Animator:
   serializedVersion: 5
@@ -668,9 +668,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thingToSpawn: {fileID: 6744182742400693750, guid: 92d02917d22e7b3499c76a2264cbca11, type: 3}
-  spawnRate: 0.5
-  maxHeight: 2.23
-  minHeight: -0.35
+  spawnRate: 3
+  maxHeight: 3.58
+  minHeight: -1.61
 --- !u!4 &2138042528
 Transform:
   m_ObjectHideFlags: 0

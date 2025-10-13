@@ -33,4 +33,17 @@ public class PlayerMovement : MonoBehaviour
         direction.y += gravity * Time.deltaTime;
         transform.position += direction * Time.deltaTime;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            GameManager.GameOver();
+        }
+
+        if (collision.gameObject.CompareTag("Score"))
+        {
+            GameManager.IncreaseScore();
+        }
+    }
 }

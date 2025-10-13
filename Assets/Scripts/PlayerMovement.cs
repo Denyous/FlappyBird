@@ -46,11 +46,13 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             FindAnyObjectByType<GameManager>().GameOver();
+            FindAnyObjectByType<Audio>().source.PlayOneShot(FindAnyObjectByType<Audio>().deathSound);
         }
 
         if (collision.gameObject.CompareTag("Score"))
         {
             FindAnyObjectByType<GameManager>().IncreaseScore();
+            FindAnyObjectByType<Audio>().source.PlayOneShot(FindAnyObjectByType<Audio>().scoreSound);
         }
     }
 }

@@ -826,7 +826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: -10.4
-  jumpMultip: 4.86
+  jumpMultip: 5
 --- !u!95 &487779250
 Animator:
   serializedVersion: 5

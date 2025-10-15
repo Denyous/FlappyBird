@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = 60;
-        PauseGame();
+        
 
     }
     public void PlayGame()
@@ -56,6 +56,13 @@ public class GameManager : MonoBehaviour
         gameoverScreen?.SetActive(true);
 
     }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
+        
 
 
 }

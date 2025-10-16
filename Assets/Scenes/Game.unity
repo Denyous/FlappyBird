@@ -328,7 +328,7 @@ RectTransform:
   m_GameObject: {fileID: 401889220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.0341852, y: 2.7583497, z: 2.7583497}
+  m_LocalScale: {x: 3.20592, y: 2.914472, z: 2.914472}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1947391831}
@@ -336,8 +336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -568.0775}
-  m_SizeDelta: {x: 160, y: 122.0517}
+  m_AnchoredPosition: {x: 50, y: -564.49664}
+  m_SizeDelta: {x: 154.3031, y: 114.8899}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401889222
 MonoBehaviour:
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cef7c68f05054a349b581306e5b59e31, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8c19f70e53289784ba4562f7e7feecd6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -825,8 +825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f85171b060017942baab210430199f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: -10.4
-  jumpMultip: 5
+  gravity: -16
+  jumpMultip: 6.5
 --- !u!95 &487779250
 Animator:
   serializedVersion: 5
@@ -1646,7 +1646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23, y: 76}
+  m_AnchoredPosition: {x: 23, y: 403}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676838334
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thingToSpawn: {fileID: 6744182742400693750, guid: 92d02917d22e7b3499c76a2264cbca11, type: 3}
-  spawnRate: 2
+  spawnRate: 1.8
   maxHeight: 2.04
   minHeight: -1.5
 --- !u!4 &2138042528
